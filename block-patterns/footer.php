@@ -6,7 +6,7 @@ register_block_pattern(
         'categories' => ['footer'],
         'content' => '
             <!-- wp:group {"align":"full","backgroundColor":"dark-green","textColor":"white"} -->
-            <div class="wp-block-group alignfull has-white-color has-dark-green-background-color has-text-color has-background">
+            <div class="wp-block-group alignfull has-dark-green-background-color has-white-color">
                 <!-- wp:columns -->
                 <div class="wp-block-columns">
                     <!-- wp:column -->
