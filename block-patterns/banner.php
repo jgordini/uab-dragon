@@ -4,7 +4,7 @@ register_block_pattern(
     array(
         'title'       => __('Banner Section', 'uab-dragon'),
         'categories'  => array('banner'),
-        'content'     => '<!-- wp:cover {"url":"https://picsum.photos/seed/uab/1920/600","id":null,"dimRatio":50,"overlayColor":"black","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}}} -->
+        'content'     => '<!-- wp:cover {"url":"https://picsum.photos/seed/uab/1920/600","dimRatio":50,"minHeight":600,"minHeightUnit":"px","isDark":true,"align":"full","backgroundColor":"black"} -->
 <div class="wp-block-cover alignfull"><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
 <h1 class="has-text-align-center">This is the banner title</h1>
 <!-- /wp:heading -->
