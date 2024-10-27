@@ -14,7 +14,9 @@ register_block_pattern(
                 <div class="wp-block-columns">
                     <!-- wp:column -->
                     <div class="wp-block-column">
-                        <!-- wp:image {"url":"https://picsum.photos/400/300"} /-->
+                        <!-- wp:image {"id":125,"url":"' . get_template_directory_uri() . '/assets/images/news-500x400.jpg","sizeSlug":"large","alt":"Aerial view of ocean waves meeting sandy beach"} -->
+                        <figure class="wp-block-image size-large"><img src="' . get_template_directory_uri() . '/assets/images/news-500x400.jpg" alt="Aerial view of ocean waves meeting sandy beach" class="wp-image-125"/></figure>
+                        <!-- /wp:image -->
                         <!-- wp:heading {"level":4} -->
                         <h4>Biology professor honored with Award of Excellence</h4>
                         <!-- /wp:heading -->
