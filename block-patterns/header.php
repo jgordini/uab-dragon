@@ -4,6 +4,7 @@ register_block_pattern(
     array(
         'title'       => __('Header', 'uab-dragon'),
         'categories'  => array('header'),
+        'inserter'    => true,
         'content'     => '<!-- wp:group {"align":"full","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignfull"><!-- wp:site-logo /-->
 <!-- wp:navigation {"itemsJustification":"center"} /-->

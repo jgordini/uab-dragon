@@ -4,6 +4,7 @@ register_block_pattern(
     [
         'title' => __('Footer', 'uab-dragon'),
         'categories' => ['footer'],
+        'inserter' => true,
         'content' => '
             <!-- wp:group {"align":"full","backgroundColor":"dark-green","textColor":"white"} -->
             <div class="wp-block-group alignfull has-white-color has-dark-green-background-color has-text-color has-background">

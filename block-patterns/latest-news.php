@@ -4,6 +4,7 @@ register_block_pattern(
     [
         'title'       => __('Latest News', 'uab-dragon'),
         'categories'  => ['news'],
+        'inserter'    => true,
         'content'     => '
             <!-- wp:group {"align":"full"} -->
             <div class="wp-block-group alignfull">
