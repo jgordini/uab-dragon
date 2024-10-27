@@ -2,9 +2,9 @@
 register_block_pattern(
     'uab-dragon/footer',
     [
-        'title'       => __('Footer', 'uab-dragon'),
-        'categories'  => ['footer'],
-        'content'     => '
+        'title' => __('Footer', 'uab-dragon'),
+        'categories' => ['footer'],
+        'content' => '
             <!-- wp:group {"align":"full","backgroundColor":"dark-green","textColor":"white"} -->
             <div class="wp-block-group alignfull has-dark-green-background-color has-white-color">
                 <!-- wp:columns -->
@@ -22,7 +22,6 @@ register_block_pattern(
                         <!-- /wp:button -->
                     </div>
                     <!-- /wp:column -->
-                    <!-- More columns as needed -->
                 </div>
                 <!-- /wp:columns -->
             </div>
